@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+img{ 
+    margin: 10px;
+    width: 70px;
+    height: 70px;
+}
+.lmgj{
+    padding: 20px 0 0 20px;
+    font-size: 60px;
+}
+.nav_bar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter:blur(20px);
+    box-shadow:10px 0 10px ;
+    display: none;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+    
+}
+
+.ul1{
+    top: 0;
+    position: sticky;
+    background: #473757;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 0 30px ;
+    height: 85px;
+}
+.bar{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.h1{
+    font-size:29px ;
+    cursor: pointer;
+    margin: 30px;
+    color: #BBBBBB;
+}
+.h1g{
+    font-size:29px ;
+    cursor: pointer;
+    margin: 30px;
+    color: #BBBBBB;
+}
+.h1j{
+    
+    font-size:29px ;
+    cursor: pointer;
+    margin: 20px 30px;
+}
+.h1lm{
+    color: #EE92A9;
+    font-size:29px;
+    margin: 20px 30px;
+}
+.h1l{
+
+        font-size:29px ;
+        cursor: pointer;
+        margin: 30px;
+        color: #FFFFFF;
+}
+.h1i{  
+    font-size:60px ;
+    cursor: pointer;
+    margin: 10px 0 0 0 ;
+    color: #FFFFFF;
+    display: none;
+}
+.HP{
+    color: #BBBBBB;
+    text-decoration: none;
+}
+
+.HP:hover{
+    color: #EE92A9;
+    transition: 0.5s;
+}
+.HPm{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+.info{
+    height: 1000px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    background: #D3B3F1;
+}
+
+.info h1{
+    color: #8C41D4;
+    font-size: 96px;
+}
+
+.info h2{
+    color: #FF3366;
+    font-size: 64px;
+}
+
+
+.info img{
+    border-radius: 40px;
+    background: #000;
+    width: 700px;
+    height: 100%;
+    max-height: 700px;
+}
+
+.con{
+    height: 120px;
+    background: #57436b;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.Bd {
+    background: #69527f;
+    justify-content: center;
+    align-content: center;
+    margin: 15px 30px;
+    width: 90px;
+    height: 90px;
+    border-radius: 15px;
+
+}
+.Bd:hover{
+    transition: 1s;
+    background: #FF3366;
+}
+.Bd a{
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 80px;
+    text-decoration: none;
+    color: white;
+}
+
+.end_home{
+    padding: 0 30px ;
+    display: flex;
+    align-content: center;
+    justify-content: space-between   ;
+    align-items: center;
+    background: #473757;
+}
+.end_home img{
+    
+    width: 70px;
+    height: 70px;
+}
+.end_home p {
+    color: #FFFFFF;
+    margin: 25px;
+}
+.Logout{
+    text-decoration: none;
+    color: rgb(239, 146, 112);
+    transition: 0.4s;
+}
+.Logout:hover{
+    color: red;
+}
+@media (max-width: 799px) {    
+    .h1g{
+        font-size: 28px;
+        margin: 35px 0 0 0;
+       }
+    .h1i{  
+        display: block;
+    }
+    .nav_bar{
+        display: none;
+    }
+    .lmg{
+        padding: 10px;
+    }
+    img{ 
+        margin: 10px;
+        width: 55px;
+        height: 55px;
+    }
+    .h1, .h1l {
+        font-size: 20px;
+        margin: 10px 0;
+        display: none;
+    }
+
+    .info h1{
+        font-size: 60px;
+    }
+    .info h2{
+        font-size: 50px;
+    }
+    .nav_bar{
+        width: 100%;
+        height: 100%;
+    }
+    .info{
+        height: 700px;}
+
+    .info img{
+        border-radius: 40px;
+        width: 400px;
+        height: 100%;
+        max-height: 400px;
+    }
+
+}
+@media (max-width: 399px) {
+    .h1g{
+
+        font-size: 15px;
+        margin: 35px 0 0 0;
+       }
+    .info{
+        width: 100%;
+        height: 100%;
+        min-height: 600px;
+    }
+    .ul1 i{
+        font-size: 60px;
+    }
+    .info h1{
+        font-size: 42px;
+    }
+    .info h2{
+        font-size: 37px;
+    }
+    .info img{
+        border-radius: 30px;
+        width: 100%;
+        max-width: 310px;
+        height: 100%;
+        max-height: 310px;
+    }
+    .con{
+        width: 100%;
+        height: 100%;
+    }
+    .Bd{
+        width: 100%;
+        max-width: 70px;
+        height: 100%;
+        min-height: 70px;
+    }
+    .bx{
+        font-size: 40px  ;
+    }
+    .end_home p{
+        font-size: 11px;
+    }
+    .end_home img{
+        width: 40px;
+        height: 40px;
+    }
+    
+}

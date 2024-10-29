@@ -1,0 +1,741 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 300px;
+}
+img{ 
+    margin: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+.lmg{
+    width:80;
+    height:80;
+
+}
+
+.lmgj{
+    padding: 20px 0 0 20px;
+    font-size: 60px;
+}
+
+/* สำหรับขนาดหน้าจอเล็ก (มือถือ) */
+.nav_bar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter:blur(20px);
+    box-shadow:10px 0 10px ;
+    display: none;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+    
+}
+/* สำหรับขนาดหน้าจอเล็ก (มือถือ) */
+
+
+
+/* สำหรับขนาดหน้าจอเล็ก (มือถือ) */
+.ul1{
+    height: 85px; ;
+    top: 0;
+    position: sticky;
+    background: #473757;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 0 30px ;
+    
+}
+/* สำหรับขนาดหน้าจอเล็ก (มือถือ) */
+
+
+
+
+.bar{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.h1{
+    font-size:29px ;
+    cursor: pointer;
+    margin: 30px;
+    color: #BBBBBB;
+}
+.h1g{
+    font-size:29px ;
+    cursor: pointer;
+    margin: 30px;
+    color: #BBBBBB;
+}
+/* สำหรับขนาดหน้าจอเล็ก (มือถือ) */
+.h1j{
+    
+    font-size:29px ;
+    cursor: pointer;
+    margin: 20px 30px;
+}
+/* สำหรับขนาดหน้าจอเล็ก (มือถือ) */
+.h1lm{
+    color: #EE92A9;
+    font-size:29px;
+    margin: 20px 30px;
+}
+
+/* สำหรับขนาดหน้าจอเล็ก (มือถือ) */
+.h1l{
+
+    font-size:29px ;
+    cursor: pointer;
+    margin: 30px;
+    color: #FFFFFF;
+}
+
+
+
+
+/* สำหรับขนาดหน้าจอเล็ก (มือถือ) */
+.h1i{  
+    font-size:60px ;
+    cursor: pointer;
+    margin: 10px 0 0 0 ;
+    color: #FFFFFF;
+    display: none;
+}
+/* สำหรับขนาดหน้าจอเล็ก (มือถือ) */
+
+
+
+
+.HP{
+    color: #BBBBBB;
+    text-decoration: none;
+}
+.HP:hover{
+    color: #EE92A9;
+    transition: 0.5s;
+}
+/* สำหรับขนาดหน้าจอเล็ก (มือถือ) */
+.HPm{
+    color: black;
+    text-decoration: none;
+}
+/* สำหรับขนาดหน้าจอเล็ก (มือถือ) */
+.h{
+    background: #F5F5F5;
+    padding: 30px 0;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.prod{
+    padding: 50px 0 ;
+
+    
+}
+.prod h1 {
+    font-size: 74px;
+    color: #363636;
+}
+.prod p {
+    padding: 30px 0 0 15px;
+    font-size: 40px ;
+    color: #363636;
+}
+
+.btn_pro{
+    display: flex;
+    align-content: center;
+    
+}
+
+.cp1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.red_{
+    width: 68px;
+    height: 68px;
+    border-radius: 100px;
+    background: red;
+}
+
+.black_{
+    width: 68px;
+    height: 68px;
+    border-radius: 100px;
+    background: black;
+}
+
+
+.cp2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.green_{
+    width: 68px;
+    height: 68px;
+    border-radius: 100px;
+    background: green;
+}
+
+.blue_{
+    width: 68px;
+    height: 68px;
+    border-radius: 100px;
+    background: blue;
+}
+
+
+.btn1{
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    width: 257px;
+    height: 170px;
+    background:#FFFFFF;
+    border: solid #D3B3F1 2px;
+    border-radius: 24px;
+    transition: 0.5s;
+
+}
+
+.btn1:hover{
+    border: solid #D3B3F1 6px;
+}
+.btn1:active{
+    border: solid rgb(211, 179, 221) 6px;
+    background: rgb(255, 255, 245);
+
+
+}
+
+.img_p{
+display: flex;
+flex-direction: column;
+gap:25px ;
+width: 100%;
+max-width: 25%;
+justify-content: center;
+
+
+}
+.img_pro{
+    width: 100%;
+    max-width: 590px;
+    height: 100%;
+    border-radius:40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.h_img_mim{
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+.h_img_mim_l{
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+.img_mim{
+    margin: 0;
+    width: 108px;
+    height: 107px;
+    background: #D9D9D9;
+    cursor: pointer;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.img_mim img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    object-position: center;
+   
+    
+}
+.img_mim:hover{
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.img_min_399_host{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.maydo{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    background: #F5F5F5;
+    padding: 20px 0;
+    height: 100%;
+    max-height: 400px;
+}
+.pen_Custom div{
+    margin: 30px 10px 10px 10px;
+}
+
+.pen_Custom p{
+    
+    font-size: 36px;
+    color: #363636;
+}
+
+
+
+.btn_Custom{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.btn_Custom button{
+
+    width: 550px;
+    height: 95px;
+    border: none;
+    border-radius: 24px;
+    font-size: 40px;
+    color: #363636;
+    background: #D3B3F1;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn_Custom button:hover{
+
+    border: solid 6px #EE92A9;
+}
+
+.btn_Custom button:active{
+    background: rgb(211, 179, 221);
+    border: solid 6px rgb(238, 146, 149);
+}
+.btn_Custom button:active{
+    background: rgb(211, 179, 221);
+    border: solid 6px rgb(238, 146, 129);
+}
+.PP{
+    min-height: 120px;
+    height: 200px;
+    width: 565px;
+    padding: 20px;
+    color: #363636;
+    font-size: 29px;
+    margin: 180px 30px ;
+}
+
+.Buynow{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+    background: #D3B3F1;
+}
+
+.Buynow button{
+    width: 490px;
+    height: 115px;
+    border: none;
+    border-radius: 45px ;
+    font-size: 40px ;
+    background: #EE92A9;
+    transition: 0.5s;
+}
+
+.Buynow button:hover{
+    border: 4px solid #A6EBE5;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+
+
+
+.end_home{
+    padding: 0 30px ;
+    display: flex;
+    align-content: center;
+    justify-content: space-between   ;
+    align-items: center;
+    background: #473757;
+}
+.end_home img{
+    
+    width: 70px;
+    height: 70px;
+}
+.end_home p {
+    color: #FFFFFF;
+    margin: 25px;
+}
+.Logout{
+    text-decoration: none;
+    color: rgb(239, 146, 112);
+    transition: 0.4s;
+}
+.Logout:hover{
+    color: red;
+}
+@media (max-width: 800px) {    
+    .h1g{
+        font-size: 28px;
+        margin: 35px 0 0 0;
+       }
+    .h1i{  
+        display: block;
+    }
+
+    .nav_bar{
+        display: none;
+         width: 100%;
+        height: 100%;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .h1, .h1l {
+        font-size: 20px;
+        margin: 10px 0;
+        display: none;
+    }
+
+    .h {
+        padding: 20px 10px;
+        gap: 20px;
+    }
+    .prod{
+        padding: 0;
+    }
+    .prod h1 {
+        font-size: 50px;
+    }
+
+    .prod p {
+        
+        font-size: 24px;
+        padding: 10px 0;
+    }
+
+    .btn1 {
+        width: 150px;
+        height: 100px;
+        border-radius: 15px;
+    }
+
+    .img_p {
+        align-items: center;
+    }
+
+    .img_pro {
+        width: 100%;
+        max-width: 300px;
+        height: 300px;
+        border-radius: 30px;
+    }
+    .red_{
+        width: 45px;
+        height: 45px;
+
+    }
+    .black_ {
+        width: 45px;
+        height: 45px;
+    }
+
+    .green_{
+        width: 45px;
+        height: 45px;;
+
+    }
+    
+    .blue_{
+        width: 45px;
+        height: 45px;
+
+    }
+    img {
+        width: 55px;
+        height: 55px;
+    }
+    .h_img_mim {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .maydo{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 290px;
+    }
+    .img_mim {
+        width: 70px;
+        height: 70px;
+    }
+    .pen_Custom{
+        width: 100%;
+        max-width: 90%;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .pen_Custom p {
+        margin: 20px;
+        font-size: 30px;
+
+    }
+    .btn_Custom {
+        margin: 0;
+        padding: 0;
+        flex-direction: row ;
+        width: 100%;
+    }
+    .btn_Custom button {
+        flex-direction: column;
+        height: 70px;
+        width: 100%;
+        max-width: 90%;
+        font-size: 20px;
+    }
+    .PP{
+        margin: 0;
+        width: 450px;
+    }
+
+    .Buynow button {
+        width: 100%;
+        max-width: 200px;
+        height: 100px;
+        font-size: 30px;
+        border-radius: 20px;
+    }
+    #la_b{
+        width: 100%;
+        font-size: 19px;
+
+    }
+
+    .end_home p {
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    .img_mim {
+        width: 70px;
+        height: 70px;
+        margin: 0 20px;
+        
+    }.img_pro {
+        width: 100%;
+        max-width: 240px;
+        height: 100%;
+        max-height: 250px;
+        border-radius: 30px;
+    }
+
+
+    .prod h1{
+        font-size: 40px;
+    }
+    .btn1{
+        width: 100%;
+        max-width: 120px;
+    }
+    .img_mim{
+    gap: 20px;
+
+    }
+    .h_img_mim{
+        display: none;
+
+    }
+    .img_min_399_host{
+        display: flex;
+        padding: 20px 0;
+        background: #D3B3F1;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 458px){
+    .h1g{
+
+        font-size: 15px;
+        margin: 35px 0 0 0;
+       }
+    .prod{
+    width: 50%;
+    height: 1%; 
+    }
+    
+    .prod h1{
+        font-size: 25px;
+        width: 100%;
+        height: 100%;
+    }
+    .prod p {
+        font-size: 15px;
+    }
+    .img_pro {
+        width: 100%;
+        min-width: 140px;
+        height: 140px;
+        border-radius: 10px;
+        margin: 0px;
+    }
+    .btn1{
+        height: 100%;
+        width: 100%;
+        max-width: 70px;
+       min-height: 70px;
+    }
+    .red_ {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .black_ {
+        width: 40px;
+        height: 40px;
+    }
+    .green_ {
+        width: 40px;
+        height: 40px;
+    }
+    .blue_ {
+        width: 40px;
+        height: 40px;
+    }
+    .h_img_mim{
+        display: none;
+
+    }
+    .img_min_399_host{
+        display: flex;
+        padding: 20px 0;
+        background: #D3B3F1;
+        width: 100%;
+        height: 100%;
+    }
+    .img_mim{
+        width: 100%;
+        max-width:40;
+    }
+    .img_pro{
+        width: 100%;
+        max-height: 90%;
+        border: 1px;
+    }
+    .pen_Custom{
+        width: 100%;
+        height: 100%;
+        max-height: 35%;
+        
+    }
+    .btn_Custom{
+        margin: 0px;
+    }
+    .pen_Custom p {
+        font-size: 20px;
+        margin: 0;
+    }
+    #btn_Custom_1{
+        height: 40px;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+    #btn_Custom_2{
+        height: 40px;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+    #btn_Custom_3{
+        height: 40px;
+        font-size: 16px;
+        border-radius: 10px;
+    }
+    .maydo{
+        padding: 0;
+        height: 250px;
+    }
+    .PP{
+        width: 100%;
+        padding: 40px 0 0 0;
+        height: 4%;
+        max-width: 80%;
+    }
+    #la_b{
+        font-size: 14px;
+        width: 100%;
+    }
+    .Buynow{
+        height: 100%;
+        padding: 20px 0;
+
+    }
+    .Buynow button{
+        width: 100%;
+        max-width: 200px;
+        height: 60px;
+        font-size: 30px;
+    }
+    .end_home p{
+        font-size: 11px;
+    }
+    .end_home img{
+        width: 40px;
+        height: 40px;
+    }
+    
+}
